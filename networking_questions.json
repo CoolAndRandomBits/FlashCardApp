@@ -1,0 +1,203 @@
+[
+      {
+        "question": "What is OSPF and what does it stand for?",
+        "answer": "OSPF stands for Open Shortest Path First. It is a link-state routing protocol used to find the best path for packets as they pass through a network."
+      },
+      {
+        "question": "What are the different OSPF network types?",
+        "answer": "The different OSPF network types include Broadcast, Non-Broadcast Multi-Access (NBMA), Point-to-Point, and Point-to-Multipoint."
+      },
+      {
+        "question": "What is an OSPF area?",
+        "answer": "An OSPF area is a logical segment of an OSPF network that helps to optimize routing by reducing the size of the routing table and limiting the scope of routing updates."
+      },
+      {
+        "question": "What is the role of the OSPF Router ID?",
+        "answer": "The OSPF Router ID is a unique identifier for each OSPF router in a network, used to distinguish routers and manage routing information."
+      },
+      {
+        "question": "What is a link-state advertisement (LSA) in OSPF?",
+        "answer": "An LSA is a type of OSPF message that contains information about the state of a router's links and is used to build and maintain the OSPF database."
+      },
+      {
+        "question": "What is OSPF's metric for determining the best route?",
+        "answer": "OSPF uses cost as its metric, which is based on the bandwidth of the links. Lower cost values indicate preferred routes."
+      },
+      {
+        "question": "What is the purpose of the OSPF DR and BDR?",
+        "answer": "In OSPF, the Designated Router (DR) and Backup Designated Router (BDR) are elected to reduce the amount of routing protocol traffic on broadcast and NBMA networks."
+      },
+      {
+        "question": "What is an OSPF backbone area?",
+        "answer": "The OSPF backbone area, also known as Area 0, is the central area through which all other OSPF areas must connect to ensure full network connectivity."
+      },
+      {
+        "question": "How does OSPF handle route summarization?",
+        "answer": "OSPF handles route summarization at area boundaries and in ABRs (Area Border Routers), allowing multiple routes to be advertised as a single summary route to reduce routing table size."
+      },
+      {
+        "question": "What is the purpose of OSPF’s Hello Protocol?",
+        "answer": "OSPF's Hello Protocol is used to establish and maintain neighbor relationships between OSPF routers and ensure that they are able to communicate and exchange routing information."
+      },
+      {
+        "question": "What does EIGRP stand for?",
+        "answer": "EIGRP stands for Enhanced Interior Gateway Routing Protocol. It is a hybrid routing protocol that combines features of both distance-vector and link-state protocols."
+      },
+      {
+        "question": "What is EIGRP's metric for determining the best route?",
+        "answer": "EIGRP uses a composite metric based on bandwidth, delay, load, and reliability to determine the best route. The metric is calculated as a combination of these factors."
+      },
+      {
+        "question": "What is the role of the EIGRP AS number?",
+        "answer": "The EIGRP Autonomous System (AS) number uniquely identifies an EIGRP routing domain. Routers within the same AS can exchange routing information with each other."
+      },
+      {
+        "question": "What is the difference between EIGRP's RTP and DUAL?",
+        "answer": "RTP (Reliable Transport Protocol) ensures the reliable delivery of EIGRP messages, while DUAL (Diffusing Update Algorithm) is used to calculate the shortest path and ensure loop-free routing."
+      },
+      {
+        "question": "What are EIGRP neighbor relationships used for?",
+        "answer": "EIGRP neighbor relationships are used to exchange routing information and maintain up-to-date routing tables among directly connected EIGRP routers."
+      },
+      {
+        "question": "What is the purpose of EIGRP's Feasible Distance (FD)?",
+        "answer": "Feasible Distance (FD) is the metric of the best route to a destination, calculated by EIGRP. It represents the total cost of reaching the destination through a specific route."
+      },
+      {
+        "question": "What is the EIGRP Successor route?",
+        "answer": "The Successor route in EIGRP is the route with the lowest metric to a destination and is used as the primary route for forwarding traffic."
+      },
+      {
+        "question": "What is the purpose of EIGRP's Topology Table?",
+        "answer": "The Topology Table in EIGRP contains all the routes learned from neighbors and is used to calculate the best routes based on the DUAL algorithm."
+      },
+      {
+        "question": "How does EIGRP handle route summarization?",
+        "answer": "EIGRP handles route summarization by allowing routers to advertise summarized routes to reduce the size of routing tables and improve network efficiency."
+      },
+      {
+        "question": "What is EIGRP's metric called and how is it calculated?",
+        "answer": "EIGRP's metric is called the Composite Metric, calculated based on bandwidth, delay, load, and reliability of the route."
+      },
+      {
+        "question": "What does BGP stand for?",
+        "answer": "BGP stands for Border Gateway Protocol. It is a path vector protocol used to exchange routing information between different autonomous systems on the internet."
+      },
+      {
+        "question": "What is the primary purpose of BGP?",
+        "answer": "The primary purpose of BGP is to manage how packets are routed across different autonomous systems and ensure the exchange of routing and reachability information between them."
+      },
+      {
+        "question": "What are BGP AS numbers and why are they important?",
+        "answer": "BGP AS numbers are unique identifiers assigned to autonomous systems. They are used in BGP to identify and distinguish different networks on the internet."
+      },
+      {
+        "question": "What is the BGP path attribute 'AS_PATH' used for?",
+        "answer": "The AS_PATH attribute in BGP lists the autonomous systems that a route has traversed. It helps in loop prevention and path selection."
+      },
+      {
+        "question": "What is the difference between eBGP and iBGP?",
+        "answer": "eBGP (external BGP) is used to exchange routing information between different autonomous systems, while iBGP (internal BGP) is used to exchange routing information within the same autonomous system."
+      },
+      {
+        "question": "What is BGP's 'NEXT_HOP' attribute?",
+        "answer": "The NEXT_HOP attribute in BGP indicates the IP address of the next router to which packets should be sent to reach the destination network."
+      },
+      {
+        "question": "How does BGP handle route aggregation?",
+        "answer": "BGP handles route aggregation by allowing multiple IP prefixes to be summarized into a single route advertisement, which helps reduce the size of routing tables."
+      },
+      {
+        "question": "What is the purpose of BGP route maps?",
+        "answer": "BGP route maps are used to control the redistribution of routes, apply policies, and modify route attributes based on certain conditions."
+      },
+      {
+        "question": "What is a BGP prefix list?",
+        "answer": "A BGP prefix list is a filtering tool used to specify which IP prefixes should be permitted or denied in BGP route advertisements."
+      },
+      {
+        "question": "What is BGP's 'LOCAL_PREF' attribute used for?",
+        "answer": "The LOCAL_PREF attribute in BGP is used to indicate the preference of a route within an autonomous system, with higher values being preferred."
+      },
+      {
+        "question": "What does RSTP stand for?",
+        "answer": "RSTP stands for Rapid Spanning Tree Protocol. It is an enhancement of the original Spanning Tree Protocol (STP) that provides faster convergence times."
+      },
+      {
+        "question": "How does RSTP improve upon traditional STP?",
+        "answer": "RSTP improves upon traditional STP by providing faster convergence times and more efficient handling of network topology changes, reducing the time required to recover from network failures."
+      },
+      {
+        "question": "What is the role of the Root Bridge in RSTP?",
+        "answer": "The Root Bridge in RSTP is the central switch that manages the network's spanning tree topology, and all other switches calculate their paths based on the Root Bridge."
+      },
+      {
+        "question": "What are the different port roles in RSTP?",
+        "answer": "The different port roles in RSTP include Root Port, Designated Port, and Alternate Port. Each role helps determine the state and functionality of a port within the spanning tree."
+      },
+      {
+        "question": "What is the function of RSTP’s Proposal and Agreement process?",
+        "answer": "The Proposal and Agreement process in RSTP is used to quickly transition ports to a forwarding state by allowing switches to negotiate port roles and states more efficiently."
+      },
+      {
+        "question": "What is a RSTP edge port?",
+        "answer": "An RSTP edge port is a port that connects to an end device rather than another switch. Edge ports immediately transition to the forwarding state, bypassing the learning and listening states."
+      },
+      {
+        "question": "How does RSTP handle topology changes?",
+        "answer": "RSTP handles topology changes by rapidly recalculating the spanning tree and updating port states to minimize downtime and ensure quick convergence."
+      },
+      {
+        "question": "What is a RSTP backup port?",
+        "answer": "A backup port in RSTP is a redundant port on a switch that provides an alternate path in case the primary port fails. It is only used if the primary port becomes unavailable."
+      },
+      {
+        "question": "How does RSTP improve network reliability compared to STP?",
+        "answer": "RSTP improves network reliability by reducing the time required to detect and respond to network topology changes, thereby minimizing the duration of network outages."
+      },
+      {
+        "question": "What is the role of the RSTP Designated Port?",
+        "answer": "The RSTP Designated Port is the port on a network segment that has the lowest path cost to the Root Bridge. It is responsible for forwarding traffic toward the Root Bridge."
+      },
+      {
+        "question": "What does QoS stand for?",
+        "answer": "QoS stands for Quality of Service. It refers to the set of technologies and techniques used to manage and prioritize network traffic to ensure reliable and efficient performance."
+      },
+      {
+        "question": "What are the main QoS parameters?",
+        "answer": "The main QoS parameters include bandwidth, latency, jitter, and packet loss. These parameters help in defining the performance characteristics of network services."
+      },
+      {
+        "question": "What is traffic shaping in QoS?",
+        "answer": "Traffic shaping is a QoS technique used to control the rate of traffic sent into the network, ensuring that traffic flows within desired limits and reduces congestion."
+      },
+      {
+        "question": "What is the purpose of QoS classification?",
+        "answer": "QoS classification involves categorizing network traffic based on predefined criteria, such as application type or source IP address, to apply appropriate QoS policies."
+      },
+      {
+        "question": "What is the difference between QoS policing and shaping?",
+        "answer": "QoS policing enforces traffic limits by dropping or remarking packets that exceed the defined rate, while shaping smooths traffic flows by buffering and delaying packets to conform to the rate."
+      },
+      {
+        "question": "What is the role of traffic prioritization in QoS?",
+        "answer": "Traffic prioritization involves assigning different levels of importance to various types of traffic, ensuring that high-priority traffic, such as VoIP, is transmitted with minimal delay and higher quality."
+      },
+      {
+        "question": "What is a QoS policy map?",
+        "answer": "A QoS policy map is a configuration element that defines how different types of traffic are handled and prioritized based on the QoS policies applied to network interfaces."
+      },
+      {
+        "question": "What are DSCP and CoS in QoS?",
+        "answer": "DSCP (Differentiated Services Code Point) and CoS (Class of Service) are markers used to classify and prioritize network traffic. DSCP is used in IP networks, while CoS is used in Layer 2 Ethernet networks."
+      },
+      {
+        "question": "How does QoS handle congestion in a network?",
+        "answer": "QoS handles congestion by applying policies to manage traffic flows, prioritize important traffic, and ensure that network resources are allocated efficiently to maintain performance."
+      },
+      {
+        "question": "What is congestion avoidance in QoS?",
+        "answer": "Congestion avoidance involves techniques like Random Early Detection (RED) and Weighted Random Early Detection (WRED) to proactively manage network congestion by selectively dropping packets before the queue becomes full."
+      }
+    ]
+  

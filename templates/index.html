@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notecard Categories</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Choose a Category</h1>
+    <div class="category-container">
+        <a href="{{ url_for('show_notecards', category='aws_questions') }}" class="category-link">AWS Questions</a>
+        <a href="{{ url_for('show_notecards', category='networking_questions') }}" class="category-link">Networking Questions</a>
+        <a href="{{ url_for('show_notecards', category='interview_questions') }}" class="category-link">Common Interview Questions</a>
+        <a href="{{ url_for('show_notecards', category='misc_questions') }}" class="category-link">Misc Questions</a>
+    </div>
+</body>
+</html>

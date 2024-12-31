@@ -1,0 +1,278 @@
+[
+    {
+        "question": "What is AWS?",
+        "answer": "AWS (Amazon Web Services) is a cloud platform offering a wide range of services like computing, storage, and databases."
+    },
+    {
+        "question": "What is EC2?",
+        "answer": "Amazon EC2 provides scalable virtual servers in the cloud."
+    },
+    {
+        "question": "What is S3?",
+        "answer": "Amazon S3 is a scalable object storage service."
+    },
+    {
+        "question": "What is RDS?",
+        "answer": "Amazon RDS is a managed relational database service."
+    },
+    {
+        "question": "What is Lambda?",
+        "answer": "AWS Lambda is a serverless compute service that runs code in response to events."
+    },
+    {
+        "question": "What is VPC?",
+        "answer": "Amazon VPC lets you create a private network in the AWS cloud."
+    },
+    {
+        "question": "What is CloudFront?",
+        "answer": "Amazon CloudFront is a content delivery network (CDN) service."
+    },
+    {
+        "question": "What is IAM?",
+        "answer": "AWS IAM manages access to AWS services and resources securely."
+    },
+    {
+        "question": "What is Route 53?",
+        "answer": "Amazon Route 53 is a scalable DNS web service."
+    },
+    {
+        "question": "What is DynamoDB?",
+        "answer": "Amazon DynamoDB is a managed NoSQL database service."
+    },
+    {
+        "question": "What is SQS?",
+        "answer": "Amazon SQS is a fully managed message queuing service."
+    },
+    {
+        "question": "What is SNS?",
+        "answer": "Amazon SNS is a fully managed pub/sub messaging service."
+    },
+    {
+        "question": "What is Redshift?",
+        "answer": "Amazon Redshift is a fully managed data warehouse service."
+    },
+    {
+        "question": "What is EBS?",
+        "answer": "Amazon EBS provides persistent block storage for EC2 instances."
+    },
+    {
+        "question": "What is ElastiCache?",
+        "answer": "Amazon ElastiCache is a managed in-memory caching service."
+    },
+    {
+        "question": "What is CloudWatch?",
+        "answer": "Amazon CloudWatch monitors AWS resources and applications."
+    },
+    {
+        "question": "What is Glue?",
+        "answer": "AWS Glue is a managed ETL service for data preparation."
+    },
+    {
+        "question": "What is Athena?",
+        "answer": "Amazon Athena is an interactive query service for S3 data."
+    },
+    {
+        "question": "What is Kinesis?",
+        "answer": "Amazon Kinesis processes and analyzes real-time streaming data."
+    },
+    {
+        "question": "What is Elastic Beanstalk?",
+        "answer": "AWS Elastic Beanstalk deploys and manages web applications."
+    },
+    {
+        "question": "What is CodeDeploy?",
+        "answer": "AWS CodeDeploy automates code deployments to any instance."
+    },
+    {
+        "question": "What is CloudFormation?",
+        "answer": "AWS CloudFormation manages infrastructure as code."
+    },
+    {
+        "question": "What is CloudTrail?",
+        "answer": "AWS CloudTrail tracks user activity and API usage."
+    },
+    {
+        "question": "What is ECS?",
+        "answer": "Amazon ECS is a managed container orchestration service."
+    },
+    {
+        "question": "What is EKS?",
+        "answer": "Amazon EKS runs Kubernetes on AWS."
+    },
+    {
+        "question": "What is SageMaker?",
+        "answer": "Amazon SageMaker builds, trains, and deploys machine learning models."
+    },
+    {
+        "question": "What is Cloud9?",
+        "answer": "AWS Cloud9 is a cloud-based IDE for coding."
+    },
+    {
+        "question": "What is WorkSpaces?",
+        "answer": "Amazon WorkSpaces provides managed, secure DaaS."
+    },
+    {
+        "question": "What is AppStream 2.0?",
+        "answer": "Amazon AppStream 2.0 streams desktop apps securely."
+    },
+    {
+        "question": "What is Step Functions?",
+        "answer": "AWS Step Functions orchestrates workflows using AWS services."
+    },
+    {
+        "question": "What is Rekognition?",
+        "answer": "Amazon Rekognition analyzes images and videos."
+    },
+    {
+        "question": "What is Polly?",
+        "answer": "Amazon Polly converts text to lifelike speech."
+    },
+    {
+        "question": "What is Lex?",
+        "answer": "Amazon Lex builds conversational interfaces using voice and text."
+    },
+    {
+        "question": "What is Comprehend?",
+        "answer": "Amazon Comprehend uses NLP to find insights in text."
+    },
+    {
+        "question": "What is Transcribe?",
+        "answer": "Amazon Transcribe converts speech to text."
+    },
+    {
+        "question": "What is Translate?",
+        "answer": "Amazon Translate provides neural machine translation."
+    },
+    {
+        "question": "What is MQ?",
+        "answer": "Amazon MQ is a managed message broker service."
+    },
+    {
+        "question": "What is Lightsail?",
+        "answer": "Amazon Lightsail provides easy-to-use cloud resources."
+    },
+    {
+        "question": "What is CodeCommit?",
+        "answer": "AWS CodeCommit is a managed source control service."
+    },
+    {
+        "question": "What is CodeBuild?",
+        "answer": "AWS CodeBuild compiles source code and runs tests."
+    },
+    {
+        "question": "What is CodePipeline?",
+        "answer": "AWS CodePipeline automates the release pipelines."
+    },
+    {
+        "question": "What is QuickSight?",
+        "answer": "Amazon QuickSight is a business analytics service."
+    },
+    {
+        "question": "What is Inspector?",
+        "answer": "Amazon Inspector is an automated security assessment service."
+    },
+    {
+        "question": "What is Trusted Advisor?",
+        "answer": "AWS Trusted Advisor provides real-time best practice guidance."
+    },
+    {
+        "question": "What is X-Ray?",
+        "answer": "AWS X-Ray helps analyze and debug distributed applications."
+    },
+    {
+        "question": "What is Elastic Transcoder?",
+        "answer": "Amazon Elastic Transcoder converts media files."
+    },
+    {
+        "question": "What is WorkMail?",
+        "answer": "Amazon WorkMail is a managed business email service."
+    },
+    {
+        "question": "What is WorkDocs?",
+        "answer": "Amazon WorkDocs is a secure content creation and collaboration service."
+    },
+    {
+        "question": "What is Pinpoint?",
+        "answer": "Amazon Pinpoint is a marketing communications service."
+    },
+    {
+        "question": "What is Textract?",
+        "answer": "Amazon Textract automatically extracts text from scanned documents."
+    },
+    {
+        "question": "What is Macie?",
+        "answer": "Amazon Macie uses ML to discover, classify, and protect sensitive data."
+    },
+    {
+        "question": "What is Glue DataBrew?",
+        "answer": "AWS Glue DataBrew is a visual data preparation tool."
+    },
+    {
+        "question": "What is Outposts?",
+        "answer": "AWS Outposts brings AWS infrastructure and services to on-premises locations."
+    },
+    {
+        "question": "What is WAF?",
+        "answer": "AWS WAF is a web application firewall that protects web applications."
+    },
+    {
+        "question": "What is Shield?",
+        "answer": "AWS Shield is a managed DDoS protection service."
+    },
+    {
+        "question": "What is Firewall Manager?",
+        "answer": "AWS Firewall Manager simplifies the administration of security policies."
+    },
+    {
+        "question": "What is Config?",
+        "answer": "AWS Config records and evaluates configurations of your AWS resources."
+    },
+    {
+        "question": "What is OpsWorks?",
+        "answer": "AWS OpsWorks is a configuration management service that provides managed instances of Chef and Puppet."
+    },
+    {
+        "question": "What is Service Catalog?",
+        "answer": "AWS Service Catalog allows organizations to create and manage catalogs of IT services."
+    },
+    {
+        "question": "What is Snowball?",
+        "answer": "AWS Snowball is a petabyte-scale data transport solution that uses secure appliances to transfer large amounts of data into and out of the AWS cloud."
+    },
+    {
+        "question": "What is DMS?",
+        "answer": "AWS Database Migration Service (DMS) helps you migrate databases to AWS quickly and securely."
+    },
+    {
+        "question": "What is Ground Station?",
+        "answer": "AWS Ground Station is a fully managed service that lets you control satellite communications, process data, and scale your operations."
+    },
+    {
+        "question": "What is IoT Core?",
+        "answer": "AWS IoT Core is a managed cloud service that lets connected devices easily and securely interact with cloud applications and other devices."
+    },
+    {
+        "question": "What is AppSync?",
+        "answer": "AWS AppSync is a managed service that uses GraphQL to make it easy for applications to get exactly the data they need."
+    },
+    {
+        "question": "What is Elastic Inference?",
+        "answer": "AWS Elastic Inference allows you to attach low-cost GPU-powered inference acceleration to Amazon EC2 and SageMaker instances."
+    },
+    {
+        "question": "What is Greengrass?",
+        "answer": "AWS IoT Greengrass extends AWS to edge devices so they can act locally on the data they generate."
+    },
+    {
+        "question": "What is RoboMaker?",
+        "answer": "AWS RoboMaker provides a development environment for building, testing, and deploying intelligent robotics applications."
+    },
+    {
+        "question": "What is Elastic File System (EFS)?",
+        "answer": "Amazon EFS is a scalable file storage service for use with AWS Cloud services and on-premises resources."
+    },
+    {
+        "question": "What is FSx?",
+        "answer": "Amazon FSx provides file systems for Windows and Lustre."
+    }
+]
